@@ -1,0 +1,8 @@
+version: '3'
+services:
+  mykafka:
+    image: apache/kafka:3.7.0
+    container_name: mykafka
+    ports:
+      - 9092:9092
+      
